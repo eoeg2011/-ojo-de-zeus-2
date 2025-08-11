@@ -673,7 +673,7 @@ def run_terminal():
     print(f"    Ejemplos: {CYAN}https://www.pinterest.com/{{user}}/{RESET}  |  {CYAN}https://www.instagram.com/{{usuario}}{RESET}")
     print(f"  • {BOLD}Usuarios reales/falsos:{RESET}ingrasa uno o varios, {BOLD}separados por coma{RESET}.")
     print(f"    Ej.: reales → {CYAN}luis.perez, pepe345{RESET}  |  falsos → {CYAN}no_existe_123, xxyyzz_000{RESET}")
-    print(f"  • {BOLD}Palabras clave (opcional):{RESET}ingresa una o varias, separadas por coma.en ingles o espa;ol si asi esta en la pagina Ej.: {CYAN}followers, boards, posts{RESET}\n")
+    print(f"  • {BOLD}Palabras clave (opcional):{RESET}ingresa una o varias, separadas por coma en ingles o español si asi esta en la pagina Ej.: {CYAN}followers, boards, posts{RESET}\n")
 
     site = input(f"{BOLD}📛 Nombre del sitio (ej. pinterest, instagram): {RESET}").strip()
     urlb = input(f"{BOLD}🔗 URL base con {{user}}/{{usuario}} (ver ejemplos arriba): {RESET}").strip()
