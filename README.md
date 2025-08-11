@@ -37,6 +37,35 @@ cd ojo-de-zeus-2
 pip install --upgrade pip
 pip install -r requirements.txt
 
+## TERMUX CON ENTORNO GRÁFICO 
+Cómo se haría (resumen técnico)
+
+1. Instalar Termux-X11 (APK oficial de su GitHub).
+
+
+2. Instalar proot-distro en Termux:
+
+pkg install proot-distro
+proot-distro install debian
+
+
+3. Entrar a Debian:
+
+proot-distro login debian
+
+
+4. Instalar entorno gráfico + Firefox:
+
+apt update && apt install -y lxde firefox-esr
+
+
+5. Ejecutar servidor gráfico y exportar DISPLAY=:0 para que Firefox se abra en la pantalla de Termux-X11.
+
+
+
+Así Ojo de Zeus 2 podrá usar Selenium con Firefox en Termux igual que en Linux normal.
+
+
 ## Uso
 \```bash
 python3 ojo_de_zeus_2.py
