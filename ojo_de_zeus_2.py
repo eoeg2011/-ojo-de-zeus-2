@@ -7,7 +7,7 @@ def limpiar_pantalla():
     os.system("clear" if os.name == "posix" else "cls")
 
 def mostrar_menu():
-    print("🔱  Bienvenido a Ojo de Zeus 2 eoeg2011")
+    print("🔱  Bienvenido a Ojo de Zeus 2  by eoeg2011")
     print("=====================================")
     print("1. Buscador automático gráfico")
     print("2. Creator automático gráfico")
