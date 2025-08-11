@@ -29,8 +29,8 @@ pkg install -y clang make
 
 7. Clona tu repositorio
    
-git clone https://github.com/eoeg2011/-ojo-de-zeus-2.git
-cd -ojo-de-zeus-2
+git clone https://github.com/eoeg2011/ojo-de-zeus-2.git
+cd ojo-de-zeus-2
 
 9. Instala dependencias de Python
     
