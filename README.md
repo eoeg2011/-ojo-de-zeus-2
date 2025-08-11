@@ -14,6 +14,24 @@ source venv/bin/activate
 pip install -r requirements.txt
 \```
 
+instalacion TERMUX
+# 1. Actualiza paquetes
+pkg update -y && pkg upgrade -y
+
+# 2. Instala dependencias básicas
+pkg install -y git python python-pip
+
+# 3. (Opcional) Instalar herramientas de compilación
+pkg install -y clang make
+
+# 4. Clona tu repositorio
+git clone https://github.com/eoeg2011/-ojo-de-zeus-2.git
+cd -ojo-de-zeus-2
+
+# 5. Instala dependencias de Python
+pip install --upgrade pip
+pip install -r requirements.txt
+
 ## Uso
 \```bash
 python3 ojo_de_zeus_2.py
