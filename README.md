@@ -29,7 +29,11 @@
 ---
 
 ## 🧭 Historia
-Hola, soy Kike. Un robo de celular cercano me motivó a crear una herramienta que ayude a **confirmar identidades y huellas públicas** usando fuentes abiertas. Ese caso me enseñó que, con los métodos correctos, se puede reconstruir bastante información pública. De ahí nace **Ojo de Zeus 2**.
+Hola, Desde pequeño me ha apasionado la informática y la seguridad digital.  
+Un incidente reciente, en el que un familiar sufrió el robo de un celular, me motivó a crear esta herramienta. Aunque el valor del dispositivo no era lo importante, supe que el ladrón empezo a hacer mal uso del contenido personal.  
+
+Gracias a una cuenta ingresada en el teléfono que aunque no tenia su nombre pero si un usuario y un correo puede hacer lo que ahora **OJO DE ZEUS 2** ase pude rastrear la identidad del delincuente y ubicarlo en sus zonas frecuentes. Esa experiencia me inspiró a desarrollar **Ojo de Zeus 2**, con la idea de que cualquiera pueda contar con una herramienta similar para obtener datos OSINT de manera sencilla sin que tenga mucha experiencia y asi ayudar a que mas que a recuperar las cosas materiales podamos recuperar lo todavia mas valioso nuestros datos privados que fueron tomados por la fuerza.
+  **Ojo de Zeus 2**.
 
 ---
 
