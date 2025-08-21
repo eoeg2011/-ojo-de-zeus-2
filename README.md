@@ -54,40 +54,54 @@ Gracias a una cuenta ingresada en el teléfono que aunque no tenia su nombre per
 ### 🔹 Linux / macOS
 > Recomendado usar entorno virtual.
 
-```bash
+
 # 1) Crear y activar venv
+```bash     
 python3 -m venv venv
 source venv/bin/activate
+```
 
 # 2) Actualizar pip e instalar dependencias
+```bash
 pip install --upgrade pip
 pip install -r requirements.txt
+```
 
 # 3) (Opcional) Comprobar versión de Python
+```bash
 python3 --version
 ```
 
 ### 🔹 Termux (Android)
 > Pasos probados en Termux moderno. No intentes instalar "pip" con pkg: ya viene con Python.
 
-```bash
+
 # 1) Actualizar paquetes
+```bash
 pkg update -y && pkg upgrade -y
+```
 
 # 2) Dependencias básicas
+```bash
 pkg install -y git python
+```
 
 # 3) (Opcional) Herramientas de compilación si alguna lib lo pide
+```bash
 pkg install -y clang make
+```
 
 # 4) Clonar e instalar
+```bash
 git clone https://github.com/eoeg2011/ojo-de-zeus-2.git
 cd ojo-de-zeus-2
 pip install --upgrade pip
 pip install -r requirements.txt
+```
 
 # 5) Ejecutar (ver sección "Uso" más abajo)
-# python3 ojo_de_zeus_2.py
+'''bash
+ python3 ojo_de_zeus_2.py
 ```
 
 **Notas rápidas para Termux:**
