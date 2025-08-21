@@ -30,25 +30,33 @@ Gracias a una cuenta ingresada en el teléfono pude rastrear la identidad del de
 ### 🔹 En Linux / macOS
 
 bash
-Crear entorno virtual
+**Crear entorno virtual**
+
 python3 -m venv venv
 source venv/bin/activate
 
-Actualizar pip e instalar dependencias
+**Actualizar pip e instalar dependencias**
+
 pip install --upgrade pip
 pip install -r requirements.txt
 
+---
+
 ### EN TERMUX ANDROID 
-Actualizar paquetes
+**Actualizar paquetes**
+
 pkg update -y && pkg upgrade -y
 
- Instalar dependencias básicas
+** Instalar dependencias básicas**
+ 
 pkg install -y git python python-pip
 
-(Opcional) Herramientas de compilación
+**(Opcional) Herramientas de compilación**
+
 pkg install -y clang make
 
- Clonar repositorio e instalar dependencias
+ **Clonar repositorio e instalar dependencias**
+
 git clone https://github.com/eoeg2011/ojo-de-zeus-2.git
 cd ojo-de-zeus-2
 pip install --upgrade pip
